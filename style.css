@@ -30,17 +30,19 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     transition: background-color 0.3s;
+    padding: 15px;
 }
 .note{
     width: 200px; /* Fix szélesség */
-    height: 150px; /* Fix magasság */
-    background-color: #c7ceda;
+    height: auto; /* Fix magasság */
+    background-color: #d5dee9;
     border-radius: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     align-items: center;
     text-align: center;
     justify-content: center;
-    display: flex;
+    display: block;
+    padding: 15px;
 }
 
 
@@ -60,9 +62,12 @@ body {
 /* GitHub link középre igazítása */
 p {
     text-align: center;
+    
 }
+
 
 /* GitHub ikon styling */
 img {
     max-width: 50px;
+    
 }
