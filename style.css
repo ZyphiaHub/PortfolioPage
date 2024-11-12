@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 200px; /* Fix szélesség */
-    height: 150px; /* Fix magasság */
+    height: 120px; /* Fix magasság */
     background-color: #435d7a;
     color: white;
     text-decoration: none;
@@ -32,6 +32,11 @@ body {
     transition: background-color 0.3s;
     padding: 15px;
 }
+
+.button:hover {
+    background-color: #93b7de;
+}
+
 .note{
     width: 200px; /* Fix szélesség */
     height: auto; /* Fix magasság */
@@ -46,9 +51,7 @@ body {
 }
 
 
-.button:hover {
-    background-color: #93b7de;
-}
+
 
 /* Linkek tárolója */
 .linklada {
