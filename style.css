@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed; /* Fixálja a hátteret */
     margin: 0; /* Eltávolítja a böngésző alapértelmezett margóját */
     height: 100vh; /* Teljes magasság */
 }
